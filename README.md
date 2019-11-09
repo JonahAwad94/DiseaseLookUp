@@ -1,5 +1,10 @@
 # DiseaseLookUp
  Disease Look Up based on Hetionet's Database
+ 
+ Collaborators:
+ Jonah Alexander-Awad
+ 
+ Eric Benjamin 
 
 
 Prequisites to run:
