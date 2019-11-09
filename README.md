@@ -1,4 +1,4 @@
-# DiseaseLookUp
+# DiseaseLookup
  Disease Look Up based on Hetionet's Database
  
  # Collaborators:
@@ -20,3 +20,18 @@
 - Create password if first time in neo4j browser
 - Change "neo4jPassword" variable at the top of main.py to whatever password you created
 - Run main.py
+
+- Option 1 - Lookup Disease Information
+  - Select 1, type in name of disease you wish to lookup. If disease is found in database, it will return the following:
+    - Compounds that palliate the disease
+    - Compounds that treat the disease
+    - Genes associated with the disease
+    - Genes that upregulate the disease
+    - Genes that downregulate the disease
+    - Anatomy the disease is typically located on
+- Option 2 - Lookup undiscovered treatments for diseases
+  - Select 2, a list of compounds and disease that they may be able to treat will be queried
+
+
+# Disease Lookup Example - Migraine
+<img src="/migraine-example.jpg">
